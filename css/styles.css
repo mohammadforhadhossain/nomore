@@ -2,13 +2,48 @@ body {
   font-size: 16px;
   color: #000000;
   background-color: #F4F4F4;
+  
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #3366CC;
-  border-radius: 0;
-  border: 0;
+  background-image:url("../images/bg.jpg");
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center;
+    border-radius: 0;
+    border: 0;
+}
+#space 
+{
+  border: 1px solid #5cb85c;
+  background-color: #5cb85c;
+  margin-left: 20px;
+}
+#space1
+{
+  border: 1px solid #286090;
+  background-color: #286090;
+  margin-left: 20px;
+}
+#space2
+{
+  border: 1px solid #c9302c;
+  background-color: #c9302c;
+  margin-left: 20px;
+}
+#cc
+{
+  background-color: #c9302c;
+}
+
+hr { 
+    border-color: #c9302c;
+    border-width: 2px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .navbar-brand {
   padding-top: 15px;
@@ -16,7 +51,7 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus{
   text-decoration: none;
 }
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { /* company name */
   font-family: 'Lora', serif;
   color: #ffffff;
   font-size: 1.5em;
@@ -45,7 +80,7 @@ body {
 }
 
 section {
-    background-color: #767A79;
+    /*background-color: #767A79;*/
     padding-bottom: 5px;
     padding-top: 5px;
     margin-top: 20px;
