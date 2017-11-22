@@ -16,6 +16,16 @@ body {
     border-radius: 0;
     border: 0;
 }
+#header-sub {
+  background-image:url("../images/bg.jpg");
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position:center;
+  border-radius: 0;
+  border: 0;
+}
 #space 
 {
   border: 1px solid #5cb85c;
